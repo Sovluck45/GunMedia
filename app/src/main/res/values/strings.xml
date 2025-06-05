@@ -1,0 +1,93 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">GunMedia</string>
+    <string name="my_profile">Мой профиль</string>
+    <string name="my_arsenal">Мой арсенал</string>
+    <string name="favorites">Избранное</string>
+    <string name="confidential_info">Конфиденциальная информация</string>
+    <string name="personal_data">Личные данные</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="email">Электронная почта</string>
+    <string name="change_password">Изменить пароль</string>
+    <string name="logout">Выйти</string>
+    <string name="profile_image_desc">Фото профиля</string>
+
+    <!-- Навигация -->
+    <string name="publications">Публикации</string>
+    <string name="events">Мероприятия</string>
+    <string name="shops">Магазины</string>
+    <string name="archive">Архив</string>
+    <string name="profile">Профиль</string>
+
+    <!-- Для экрана архива -->
+    <string name="archive_title">Исторические публикации</string>
+    <string name="publication_1_title">Револьвер Colt Model 1917 (США)</string>
+    <string name="publication_1_desc">Когда новинки Джона М. Браунинга оказываются слишком сложны в производстве и обращении...</string>
+    <string name="publication_1_comments">2 комментария</string>
+    <string name="publication_2_title">Пистолет-пулемёт Mauser C-96 model 712 (Германия)</string>
+    <string name="publication_2_desc">Один из немногих случаев, когда копия пародила оригинал. Рассмотрим пистолет с возможностью...</string>
+    <string name="publication_2_comments">5 комментариев</string>
+    <string name="publication_3_title">Ручной пулемет Chatchat C.S.R.G. Model 1915 (Франция)</string>
+    <string name="publication_3_desc">В начале 20 века французская армия находилась, можно сказать, на острие военного прогресса...</string>
+    <string name="publication_3_comments">8 комментариев</string>
+
+    <!-- Для экрана магазинов -->
+    <string name="shops_title">Магазины</string>
+    <string name="search_hint">Поиск магазинов</string>
+    <string name="shop1_name">Колътуна</string>
+    <string name="shop1_subtitle">оружейные салоны</string>
+    <string name="shop1_description">Интернет-магазин товаров для охоты, спортивной стрельбы и туризма</string>
+    <string name="shop2_name">ЦЕЛИ</string>
+    <string name="shop2_description">Компания Союз-ТМ лучший российский производитель оружия как для практической, так и тактической стрельбы.</string>
+    <string name="shop3_name">ОМЕРТА</string>
+    <string name="go_button">Перейти</string>
+    <string name="tag_moscow">Москва</string>
+    <string name="tag_sport">Спорт</string>
+    <string name="tag_hunting">Охота</string>
+
+    <!-- Для экрана мероприятий -->
+    <string name="events_title">Мероприятия</string>
+    <string name="search_events_hint">Поиск мероприятий</string>
+    <string name="local_events">Мероприятия в моём регионе</string>
+    <string name="sport_events">Спортивные мероприятия</string>
+    <string name="educational_events">Образовательные мероприятия</string>
+    <string name="event1_title">Посещение бразильского зоопарка</string>
+    <string name="event1_date">24-25 мая</string>
+    <string name="event1_location">Москва</string>
+    <string name="event2_title">Как правильно одевал</string>
+    <string name="event2_date">5 июня</string>
+    <string name="event2_location">Москва</string>
+    <string name="event3_title">Стрельба с велосипеда по электросамокатчикам</string>
+    <string name="event3_date">29-31 мая</string>
+    <string name="event3_location">Подольск</string>
+    <string name="event4_title">Стрельба навскидку</string>
+    <string name="event4_date">13 июня</string>
+    <string name="event4_location">Саратов</string>
+    <string name="event5_title">Кто у кого скопировал конструкцию?</string>
+    <string name="event5_date">22 июня</string>
+    <string name="event5_location">Ижевск</string>
+    <string name="event6_title">Изобретения Токарова</string>
+    <string name="event6_date">15 мая</string>
+    <string name="event6_location">Тула</string>
+    <string name="details_button">Подробнее</string>
+
+    <!-- Для экрана публикаций -->
+    <string name="publications_title">Все публикации</string>
+    <string name="publication1_title">Гладкоствольное самозарядное ружье Browning Auto-5 (США)</string>
+    <string name="publication1_desc">Знаменитое ружьё Джона Браунинга считается по праву одним из его величайших творений...</string>
+    <string name="publication1_comments">7 комментариев</string>
+    <string name="publication1_tag">Новость</string>
+    <string name="publication2_title">Оружейному конструктору Владимиру Ярыгину исполнилось 75 лет</string>
+    <string name="publication2_desc">Свою жизнь он посвятил служению Родине, укреплению её оборонопособности и развитию...</string>
+    <string name="publication2_comments">6 комментариев</string>
+    <string name="publication2_tag">Полезно знать</string>
+    <string name="publication3_title">Шелчок вместо выстрела: задержки при стрельбе и как с ними бороться</string>
+    <string name="publication3_desc">С задержкой может столкнуться как новичок, так и опытный стрелок. Разбираемся, что в оружии...</string>
+    <string name="publication3_comments">3 комментария</string>
+    <string name="read_button">Читать</string>
+    <string name="filter_title">Все публикации</string>
+    <string name="news_title">Новости</string>
+    <string name="tag_useful">Полезно знать</string>
+    <string name="tag_history">История</string>
+    <string name="tag_tech">Технологии</string>
+    <string name="tag_law">По закону</string>
+</resources>

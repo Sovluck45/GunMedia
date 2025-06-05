@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Заголовок экрана -->
+        <TextView
+            android:id="@+id/title_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Профиль"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <!-- Блок профиля -->
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:src="@drawable/ic_profile_placeholder"
+            android:contentDescription="Фото профиля"
+            app:layout_constraintTop_toBottomOf="@id/title_screen"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Константин Лакисов"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="@id/profile_image"
+            app:layout_constraintStart_toEndOf="@id/profile_image"
+            app:layout_constraintTop_toTopOf="@id/profile_image"/>
+
+        <!-- Заголовок "Мой профиль" -->
+        <TextView
+            android:id="@+id/section_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Мой профиль"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@id/profile_image"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <!-- Контейнер меню -->
+        <LinearLayout
+            android:id="@+id/menu_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/section_title">
+
+            <!-- Мой арсенал -->
+            <TextView
+                android:id="@+id/menu_arsenal"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Мой арсенал"
+                android:gravity="center_vertical"
+                android:paddingStart="16dp"
+                android:background="@drawable/bg_menu_item_top"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F0F0F0"/>
+
+            <!-- Избранное -->
+            <TextView
+                android:id="@+id/menu_favorites"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Избранное"
+                android:gravity="center_vertical"
+                android:paddingStart="16dp"
+                android:background="@drawable/bg_menu_item_bottom"/>
+
+            <!-- Разделитель -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="#F5F5F5"/>
+
+            <!-- Конфиденциальная информация -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Конфиденциальная информация"
+                android:gravity="center_vertical"
+                android:paddingStart="16dp"
+                android:drawablePadding="8dp"
+                android:background="@drawable/bg_menu_item_top"/>
+
+            <!-- Личные данные -->
+            <TextView
+                android:id="@+id/personal_data"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Личные данные"
+                android:gravity="center_vertical"
+                android:paddingStart="16dp"
+                android:drawablePadding="8dp"
+                android:background="@drawable/bg_menu_item_top"/>
+
+            <!-- Номер телефона -->
+            <TextView
+                android:id="@+id/phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Номер телефона"
+                android:gravity="center_vertical"
+                android:paddingStart="16dp"
+                android:drawablePadding="8dp"
+                android:background="@drawable/bg_menu_item_middle"/>
+
+            <!-- Электронная почта -->
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Электронная почта"
+                android:gravity="center_vertical"
+                android:paddingStart="16dp"
+                android:drawablePadding="8dp"
+                android:background="@drawable/bg_menu_item_bottom"/>
+
+            <!-- Разделитель -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="#F5F5F5"/>
+
+            <!-- Изменить пароль -->
+            <TextView
+                android:id="@+id/btn_change_password"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Изменить пароль"
+                android:gravity="center_vertical"
+                android:paddingStart="16dp"
+                android:background="@drawable/bg_menu_item_single"/>
+
+            <!-- Выйти -->
+            <TextView
+                android:id="@+id/btn_logout"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Выйти"
+                android:textColor="#FF0000"
+                android:gravity="center_vertical"
+                android:paddingStart="16dp"
+                android:background="@drawable/bg_menu_item_single"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

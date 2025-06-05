@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "957703732535",
+    "project_id": "gunmedia-de381",
+    "storage_bucket": "gunmedia-de381.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957703732535:android:a3a7502819f6a75bc9aeb2",
+        "android_client_info": {
+          "package_name": "com.example.gunmedia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZkPEDRRYkUdkH1B-tWU-26ZUD-RvKibI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
